@@ -1,6 +1,7 @@
 from __future__ import print_function
 import pandas
 
+# following http://synesthesiam.com/posts/an-introduction-to-pandas.html
 
 mydata = pandas.read_csv("testdata/weather_year.csv")
 mydata.columns = ["date", "max_temp", "mean_temp", "min_temp", "max_dew",
